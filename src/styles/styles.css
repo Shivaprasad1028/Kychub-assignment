@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-container {
+    display: flex;
+  }
+  
+  .main-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .compare-page {
+    padding: 20px;
+  }
+  
+  .product-compare-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+ 

@@ -1,0 +1,89 @@
+.product-table {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.table .ant-table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table .ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+.table .ant-table-tbody > tr > td {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.btn {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+  color: white;
+}
+
+.btn1 {
+  background-color: #52c41a;
+  border-color: #52c41a;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 6px 20px;
+  display: block;
+  width: max-content;
+  margin: 20px auto 0;
+}
+
+.btn1:hover, .btn1:focus {
+  background-color: #73d13d;
+  border-color: #73d13d;
+  color: white;
+}
+
+.btn:disabled, .btn1:disabled {
+  background-color: #d9d9d9;
+  border-color: #d9d9d9;
+  color: #999;
+  cursor: not-allowed;
+}
+
+
+.table img {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table .ant-table-thead > tr > th {
+    font-size: 14px;
+  }
+
+  .table .ant-table-tbody > tr > td {
+    font-size: 12px;
+  }
+
+  .btn, .btn1 {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+}

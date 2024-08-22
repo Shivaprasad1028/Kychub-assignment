@@ -1,0 +1,26 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 73px;
+    left: -250px; 
+    background-color:#3f434c;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar.active {
+    transform: translateX(250px); 
+  }
+  
+  .sidebar ul {
+    margin-top: 10px;
+    text-decoration: none;
+list-style: none;}
+
+  .sidebar ul li .link{
+    font-size: 16px;
+    color: black;
+ font-weight: 600;
+
+}

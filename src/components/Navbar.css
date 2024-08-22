@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+justify-items: start;
+    padding: 10px;
+    background-color: #3f434c;
+    color: white;
+  }
+
+  .menu-bars {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+  }
+
+  .navbar ul {
+    font-size: 24px;
+    font-weight: bold;
+  
+   
+  }
+  
+.navbar ul li{
+    text-decoration: none;
+    list-style: none;
+
+    position: absolute;
+    left: 100%;
+
+
+
+}
+button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 0%;
+
+}
+  
